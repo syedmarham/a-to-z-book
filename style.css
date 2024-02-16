@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+@font-face {
+    font-family: Kbzipadeedoodah;
+    src: url(assests/fonts/kbzipadeedoodah-font/Kbzipadeedoodah-YG3j.ttf);
+}
+@font-face {
+    font-family: Righteous;
+    src: url(assests/fonts/Righteous/Righteous-Regular.ttf);
+}
+@font-face {
+    font-family: Satisfy;
+    src: url(assests/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: Skranji;
+
+    src: url(assests/fonts/Skranji/Skranji-Bold.ttf);
+}
+@font-face {
+    font-family: SweetCherryFree;
+    src: url(assests/fonts/sweet-cherry-font/SweetCherryFree-K7MZo.otf);
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url(assests/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(assests/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(assests/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+.main-container {
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 70px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+.top-heading h1 {
+    text-align: center;
+    margin: 32px auto;
+    font-family: Righteous;
+    color: #fff;
+}
+.top-heading {
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    padding: 20px;
+    background: #482de2; 
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.main-heading h2,h3 {
+    font-size: 75px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+}
+
+.main-heading h3{
+    font-family: SweetCherryFree;
+    color: #eea11d;
+}
+
+.center-img{
+    text-align: center;
+}
+
+.center-img img {
+    width: 100%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons img {
+    width: 40%;
+}
+
+
+
+
+
+
+/* A to Z book  */
+
+
+.wrapper {
+    padding: 30px 10px;
+}
+.wrapper h3 {
+    font-family: Righteous;
+    color: #8E2DE2;
+    margin-bottom: 20px;
+}
+.wrapper {
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 20px auto;
+}
+.alphabates {
+    width: 100%;
+    margin-bottom: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.alphabates a {
+    
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Skranji;
+}
+
+.body{
+    background-color: #f7f9fa;
+}
+.detail h2{
+    font-size: 30px;
+    font-family: Righteous;  
+}
+.alph {
+    font-size: 80px;
+    margin-right: 20px;
+    font-family: PoppinsBold;
+}
+.alph2 {
+    font-size: 70px;
+    font-family: SweetCherryFree;
+    margin-left: 18px;
+}
+.detail{
+    margin-bottom: 50px;
+}
+.dtable {
+    border-collapse: separate;
+    border-spacing: 0 3em;
+}
+.dtable {
+    margin: 0 auto;
+}
+.dtable td{
+    padding: 50px;
+}
+.dtable tr{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+.icon img {
+    width: 150px;
+}
+
+.A{
+    color: red;
+}
+.B{
+    color: #94e061;
+}
+.C {
+    color: #f0ae5a;
+}
+.D{
+    color: #f4dbce;
+}
+.E{
+    color: #828487;
+   
+}
+.F{
+    color:#ee9e68;
+}
+.G{
+    color: #f1b646;
+}
+.H{
+    color: #eb7e79;
+}
+.I{
+    color: #ec81a7;
+}
+.J{
+    color: #98bce5;
+}
+.K{
+    color: #60c5a1;
+}
+.L{
+    color: #efa321;
+}
+.M{
+    color: #d2996f;
+}
+.N{
+    color: #c88828;
+}
+.O{
+    color: #efa83c;
+}
+.P{
+    color: #6bde56;
+}
+.Q{
+    
+    color: #faee6e;
+}
+.R{
+    color: #d3c7c7;
+}
+.S{
+    color: #f4cd06;
+}
+.T{
+    color: #499b15;
+}
+.U{
+    color: #8ad7f8;
+}
+.V{
+    color: #e66e5c;
+}
+.W{
+    color: #f1b62e;
+}
+.X{
+    color: #326799;
+}
+.Y{
+    color: #91dafe;
+}
+.Z{
+    color: #52565b;
+}
+
+.toptobtm{
+    text-align: right;
+}
+
+.toptobtm img {
+    width: 150px;
+}
+.form_heading{
+    text-align: center;
+}
+.form_wrapper {
+    background: #fff;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    /* height: 300px; */
+    border-radius: 20px;
+}
+.form_heading img {
+    width: 100%;
+}
+td img {
+    width: 36px;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+label {
+    font-size: 18px;
+    margin-right: 12px;
+    font-family: PoppinsMedium;
+}
+h4{
+    font-family: PoppinsMedium;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+input:focus{
+    outline: none;
+}
+span.n {
+    font-size: 18px;
+    font-family: Skranji;
+
+}
+textarea {
+    width: 98%;
+    padding: 10px;
+    margin-top: 18px;
+    height: 109px;
+    font-size: 18px;
+}
+.button_submit {
+    text-align: center;
+    margin-top: 30px;
+}
+input[type="submit"] {
+    width: 50%;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
